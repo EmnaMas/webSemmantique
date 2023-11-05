@@ -1,0 +1,6 @@
+PREFIX ont: <http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#>
+
+SELECT ?equipe ?trophee
+WHERE {
+  ?equipe ont:aGagnéTrophée ?trophee.
+}

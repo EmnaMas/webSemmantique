@@ -1,0 +1,6 @@
+PREFIX untitled-ontology-2: <http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#>
+
+SELECT ?arbiter ?match
+WHERE {
+  ?arbiter untitled-ontology-2:dirigeDesMatchs ?match.
+}
